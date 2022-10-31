@@ -1,8 +1,6 @@
 
-import playerData from "../data/playerData"
-import matchData from "../data/matchData";
 
-export const preparePlayerData = () => {
+export const preparePlayerData = (playerData) => {
     return Object.values(playerData);
     
 }
